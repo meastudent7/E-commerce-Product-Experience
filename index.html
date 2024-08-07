@@ -1,0 +1,106 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% load static %}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Home Page</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <link rel="stylesheet"  type="text/css" href="{% static 'style.css'%} "  />
+<link rel="stylesheet"   type="text/css" href="{% static 'coin-slider.css'%}" />
+
+<script type="text/javascript" src="{% static 'cufon-yui.js'%} "></script>
+<script type="text/javascript" src="{% static 'cufon-aller.js'%}"></script>
+<script type="text/javascript" src="{% static 'jquery-1.4.2.min.js'%}"></script>
+<script type="text/javascript" src="{% static 'script.js'%}"></script>
+<script type="text/javascript" src="{% static 'coin-slider.min.js'%}"></script>
+<style type="text/css">
+<!--
+.style5 {
+	font-size: 24px;
+	color: #FF0000;
+}
+.style12 {font-weight: bold}
+.style13 {font-size: 24px; color: #FF0000; font-weight: bold; }
+.style17 {
+	color: #FF0000;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="menu_nav">
+        <p>&nbsp;</p>
+      </div>
+      <div class="mainbar">
+        <h1 align="center"><a href="index.html"><span class="content style5">Exploring ECommerce Product Experience Based on Fusion Sentiment Analysis Method</span></a></h1>
+
+
+
+        <div class="tab-content tab-space">
+            <div class="tab-pane active" id="preview-alerts">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script><link href="https://unpkg.com/soft-ui-design-system@1.0.1/assets/css/soft-design-system.min.css" rel="stylesheet" /><div class="container py-5">
+  <div class="row">
+    <div class="alert alert-primary text-white font-weight-bold" role="alert">
+     <p align="center"><span class="active"><span class="style12"><a href="{% url 'index' %}">Home|  </a><a href="{% url 'login' %}">Remote User </a>|<a href="{% url 'serviceproviderlogin' %}"> Service Provider </a></span></span></p>
+    </div>
+    <div>
+</div>
+
+
+
+        <img src="{% static 'Banner.jpg'%}" width="1297" height="280" alt="" class="fl" />      </div>
+      <div class="clr"></div>
+      <div class="slider">
+        
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <h2 align="center" class="style13"> E-commerce product experience, fusion method, machine learning, sentiment analysis,
+sentiment dictionary.</h2>
+          <div class="img">
+            <div align="center"><img src="{% static 'img1.jpg'%}" width="630" height="221" alt="" class="fl" /></div>
+          </div>
+          <div class="post_content"> 
+            <p align="center" class="style17">With the speedy development of e-commerce, a growing number of customers tend to share their subjective perceptions of the product or service on the Internet. This phenomenon makes the commercial value of online reviews increasingly prominent. In this context, how to gain insights into consumers' perceptions and attitudes from massive comments has become a hot-button topic. Addressing this requirement, this paper developed a fusion sentiment analysis method combining textual analysis techniques with machine learning algorithms, aiming to mine online product experience. The method mainly consists of three steps. Firstly, inspired by the sensitivity of sentiment dictionary to emotional information, we utilize the dictionary to extract sentiment features. Afterward, the SVM algorithm is adopted to identify sentiment polarities of reviews. Based on this, sentiment topics are extracted from reviews through the LDA model. Furthermore, to avoid the omission of emotional information, the dictionary is extended based on semantic similarity. Meanwhile, in this research, the fact that words in reviews have unequal sentiment contribution, which has been neglected in existing studies, is taken into account. Specically, we introduce the weighting method to measure the sentiment contribution. Finally, the investigation of consumers' reading experiences of online books on Amazon has veried the feasibility and validity of the method. The results demonstrate that the method accurately determines reviews' emotional tendencies and captures elements affecting reading experiences from reviews. Overall, the research provides an effective way to mine online product experience and track customers' demands, thereby strongly supporting future product improvement and marketing strategy optimization.</p>
+          </div>
+
+        <div class="tab-content tab-space">
+            <div class="tab-pane active" id="preview-alerts">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script><link href="https://unpkg.com/soft-ui-design-system@1.0.1/assets/css/soft-design-system.min.css" rel="stylesheet" /><div class="container py-5">
+  <div class="row">
+    <div class="alert alert-primary text-white font-weight-bold" role="alert">
+     <p align="center"><span class="active"><span class="style12"><a href="{% url 'login' %}">Home|  </a><a href="{% url 'login' %}">Remote User </a>|<a href="{% url 'serviceproviderlogin' %}"> Service Provider </a></span></span></p>
+    </div>
+    <div>
+</div>
+          <div class="clr"></div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="searchform"></div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="fbg"></div>
+  <div class="footer"></div>
+</div>
+<div align=center></div>
+</body>
+</html>
