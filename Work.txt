@@ -1,0 +1,30 @@
+Exploring ECommerce Product Experience Based on Fusion Sentiment Analysis Method
+
+
+E-commerce product experience, fusion method, machine learning, sentiment analysis,
+sentiment dictionary.
+
+
+Exploring_ECommerce_Product
+
+exploring_ecommerce_product
+
+
+Members
+---------
+
+reviewerID	
+Product_Id	
+reviewerName	
+reviewText	
+overall_rating	
+summary	
+reviewTime
+Prediction
+
+
+
+
+product_sentiment_analysis
+
+
